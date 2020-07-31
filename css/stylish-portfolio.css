@@ -407,3 +407,9 @@ a:hover, a:focus, a:active {
   font-size: 30px;
   
 }
+
+.avatar{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+} 
