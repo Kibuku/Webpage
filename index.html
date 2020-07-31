@@ -20,7 +20,9 @@
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/stylish-portfolio.css">
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  
 
 </head>
 
@@ -143,12 +145,32 @@
           <a class="portfolio-item" href="#!">
             <div class="caption">
               <div class="caption-content">
-                <h3 style="font-size: 20px; color: green;margin-top: 52%;" class="badge badge-light">Abigael's Plate Kibera</h3>
+                <h3 style="font-size: 20px; color: green; margin-top: 40%;" class="badge badge-light">Abigael's Plate Kibera</h3>
                 <p class="mb-0" ">
                   <d>Charity Initiative</d>
                 <br>
-                  <p style="color: white; font-size:15px; font-weight: bold" >Has run for three and a half months, raising KSH90,000 reaching 150  and families.</p>
-                  
+                  <!-- <p style=" color: white; font-size:15px; font-weight: bold">Has run for three and a half months,
+                  raising KSH90,000 reaching 150 and families.</p> -->
+                <div class="stats">
+                  <div class="counting-sec">
+                    <div class="inner-width">
+                      <div class="col">
+                        <div class="num">150</div>
+                        Families
+                      </div>
+
+                      <div class="col">
+                        <div class="num">90000</div>
+                        KSH raised
+                      </div>
+
+                      <div class="col">
+                        <div class="num">4</div>
+                        Months
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </p>
               </div>
             </div>
@@ -217,32 +239,45 @@
   <section class="content-section bg-light text-center">
     <div class="container text-center">
       <h2> Testimonials </h2>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 60%; height: auto; margin: 0 auto;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+        style="width: 60%; height: auto; margin: 0 auto;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div  class="carousel-inner">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img style=" object-fit: cover; opacity: 50%;" class="d-block w-100" src="img/testimonialexample1.webp" alt="First slide">
+            <img style=" object-fit: cover; opacity: 50%;" class="d-block w-100" src="img/testimonialexample1.webp"
+              alt="First slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>Name</h5>
-              <p style="color: green; font-size: 18px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula leo et auctor pellentesque. Vestibulum egestas massa quis lacus volutpat, eu semper nibh sodales. Aliquam lacinia lorem eget dapibus hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p style="color: green; font-size: 18px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer vehicula leo et auctor pellentesque. Vestibulum egestas massa quis lacus
+                volutpat, eu semper nibh sodales. Aliquam lacinia lorem eget dapibus hendrerit. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img style=" object-fit: cover; opacity: 50%;" class="d-block w-100" src="img/testimonialexample3.webp" alt="Second slide">
+            <img style=" object-fit: cover; opacity: 50%;" class="d-block w-100" src="img/testimonialexample3.webp"
+              alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>Name</h5>
-              <p style="color: green; font-size: 18px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula leo et auctor pellentesque. Vestibulum egestas massa quis lacus volutpat, eu semper nibh sodales. Aliquam lacinia lorem eget dapibus hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p style="color: green; font-size: 18px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer vehicula leo et auctor pellentesque. Vestibulum egestas massa quis lacus
+                volutpat, eu semper nibh sodales. Aliquam lacinia lorem eget dapibus hendrerit. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img  style=" object-fit: cover; opacity: 70%;" class="d-block w-100" src="img/testimonialexample4.webp" alt="Third slide">
+            <img style=" object-fit: cover; opacity: 70%;" class="d-block w-100" src="img/testimonialexample4.webp"
+              alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>Name </h5>
-              <p style="color: green; font-size: 18px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula leo et auctor pellentesque. Vestibulum egestas massa quis lacus volutpat, eu semper nibh sodales. Aliquam lacinia lorem eget dapibus hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p style="color: green; font-size: 18px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Integer vehicula leo et auctor pellentesque. Vestibulum egestas massa quis lacus
+                volutpat, eu semper nibh sodales. Aliquam lacinia lorem eget dapibus hendrerit. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit.</p>
             </div>
           </div>
         </div>
@@ -303,9 +338,14 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  <script type="text/javascript">
+  $(".num").counterUp({delay:10,time:900})
+  </script>
 
 </body>
 
